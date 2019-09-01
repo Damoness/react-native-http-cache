@@ -1,7 +1,7 @@
 
 {
   "name": "@damoness/react-native-http-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native 清理缓存",
   "main": "index.js",
   "scripts": {
