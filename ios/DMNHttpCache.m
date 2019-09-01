@@ -11,7 +11,7 @@
 @implementation DMNHttpCache
 
 RCT_EXPORT_MODULE(DMNHttpCache);
-
+//1.0.2
 RCT_EXPORT_METHOD(getHttpCacheSize:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
   NSURLCache *httpCache = [NSURLCache sharedURLCache];
