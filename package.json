@@ -1,8 +1,8 @@
 
 {
   "name": "@damoness/react-native-http-cache",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.0",
+  "description": "React Native 清理缓存",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,8 @@
     "react-native"
   ],
   "author": "damoness",
-  "license": "",
+  "homepage": "https://github.com/damoness/react-native-http-cache#readme",
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
   }
