@@ -5,7 +5,7 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-#import <SDWebImage.h>
+#import "SDWebImage.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
