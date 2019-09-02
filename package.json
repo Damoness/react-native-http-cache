@@ -1,7 +1,6 @@
-
 {
   "name": "@damoness/react-native-http-cache",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React Native 清理缓存",
   "main": "index.ts",
   "scripts": {
@@ -14,6 +13,11 @@
   "homepage": "https://github.com/damoness/react-native-http-cache#readme",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": "^0.41.2"
+    "react-native": "^0.60.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.60.9",
+    "react-native": "^0.60.0",
+    "typescript": "^3.6.2"
   }
 }
