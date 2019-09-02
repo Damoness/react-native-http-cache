@@ -1,10 +1,11 @@
 {
   "name": "@damoness/react-native-http-cache",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "React Native 清理缓存",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pb": "npm publish --access=public --registry http://www.npmjs.org "
   },
   "keywords": [
     "react-native"
