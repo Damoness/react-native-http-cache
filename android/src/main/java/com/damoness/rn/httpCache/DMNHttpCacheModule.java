@@ -1,5 +1,5 @@
 
-package com.damoness.rn;
+package com.damoness.rn.httpCache;
 
 import com.facebook.cache.disk.DiskStorageCache;
 import com.facebook.cache.disk.FileCache;
