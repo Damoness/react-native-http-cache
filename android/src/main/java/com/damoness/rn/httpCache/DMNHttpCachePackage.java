@@ -1,5 +1,5 @@
 
-package com.damoness.rn;
+package com.damoness.rn.httpCache;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

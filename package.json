@@ -1,11 +1,11 @@
-
 {
   "name": "@damoness/react-native-http-cache",
   "version": "1.1.0",
   "description": "React Native 清理缓存",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pb": "npm publish --access=public --registry http://www.npmjs.org "
   },
   "keywords": [
     "react-native"
@@ -15,5 +15,10 @@
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.63.0"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.63.40",
+    "react-native": "^0.63.4",
+    "typescript": "^3.6.2"
   }
 }
