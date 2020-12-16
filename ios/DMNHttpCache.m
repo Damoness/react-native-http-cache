@@ -11,18 +11,22 @@
 @implementation DMNHttpCache
 
 RCT_EXPORT_MODULE(DMNHttpCache);
+
 //1.0.2
 RCT_EXPORT_METHOD(getHttpCacheSize:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
   NSURLCache *httpCache = [NSURLCache sharedURLCache];
   resolve(@([httpCache currentDiskUsage]));
 }
+
+
 RCT_EXPORT_METHOD(clearHttpCache:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
   NSURLCache *httpCache = [NSURLCache sharedURLCache];
   [httpCache removeAllCachedResponses];
   resolve(nil);
 }
+
 
 RCT_EXPORT_METHOD(getImageCacheSize:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
