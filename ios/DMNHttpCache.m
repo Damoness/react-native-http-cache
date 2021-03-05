@@ -12,7 +12,7 @@
 
 RCT_EXPORT_MODULE(DMNHttpCache);
 
-//1.0.2
+//1.2.0
 RCT_EXPORT_METHOD(getHttpCacheSize:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
   NSURLCache *httpCache = [NSURLCache sharedURLCache];
@@ -30,22 +30,22 @@ RCT_EXPORT_METHOD(clearHttpCache:(RCTPromiseResolveBlock)resolve reject:(RCTProm
 
 RCT_EXPORT_METHOD(getImageCacheSize:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
-  
+
   [[SDImageCache sharedImageCache]calculateSizeWithCompletionBlock:^(NSUInteger fileCount, NSUInteger totalSize) {
-    
+
     resolve(@(totalSize));
-    
+
   }];
-  
+
 }
 
 RCT_EXPORT_METHOD(clearImageCache:(RCTPromiseResolveBlock)resolve reject:(RCTPromiseRejectBlock)reject)
 {
-  
+
   [[SDImageCache sharedImageCache]clearDiskOnCompletion:^{
     resolve(@(true));
   }];
-  
+
 }
 
 @end
